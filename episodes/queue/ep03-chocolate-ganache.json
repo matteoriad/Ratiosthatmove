@@ -1,0 +1,122 @@
+{
+ "title": "Chocolate ganache",
+ "series": "Ganache",
+ "episode": 3,
+ "handle": "@ratiosthatmove",
+ "bpm": 80,
+ "base": "chocolate",
+ "hook": "Two ingredients. *Three textures*.",
+ "hook_beats": 5,
+ "cover_text": "Just chocolate and cream, *three textures*",
+ "ingredients": [
+  "chocolate",
+  "cream"
+ ],
+ "dishes": [
+  {
+   "name": "Truffles",
+   "beats": 12,
+   "tag": "firm & fudgy",
+   "illustration": "truffle",
+   "tint": "F3D9C9",
+   "science": "fat_crystals",
+   "science_label": "COCOA BUTTER SETS",
+   "grams": {
+    "chocolate": 100,
+    "cream": 50
+   },
+   "ratio": [
+    [
+     "chocolate",
+     "2"
+    ],
+    [
+     "cream",
+     "1"
+    ]
+   ],
+   "ratio_short": "2 : 1",
+   "text": "Twice the chocolate. Cocoa butter *sets firm as it cools*, so you can roll it."
+  },
+  {
+   "name": "Frosting",
+   "beats": 8,
+   "tag": "thick & spreadable",
+   "illustration": "cupcake",
+   "tint": "FFD9E2",
+   "science": "emulsion",
+   "science_label": "FAT IN WATER",
+   "grams": {
+    "chocolate": 100,
+    "cream": 100
+   },
+   "ratio": [
+    [
+     "chocolate",
+     "1"
+    ],
+    [
+     "cream",
+     "1"
+    ]
+   ],
+   "ratio_short": "1 : 1",
+   "text": "*Equal parts*: a thick emulsion that spreads and holds a swirl."
+  },
+  {
+   "name": "Glaze",
+   "beats": 8,
+   "tag": "thin & pourable",
+   "illustration": "cake",
+   "tint": "D3EAFF",
+   "science": "emulsion_loose",
+   "science_label": "MORE WATER, LESS FAT",
+   "grams": {
+    "chocolate": 100,
+    "cream": 200
+   },
+   "ratio": [
+    [
+     "chocolate",
+     "1"
+    ],
+    [
+     "cream",
+     "2"
+    ]
+   ],
+   "ratio_short": "1 : 2",
+   "text": "*Twice the cream*: mostly liquid, so it pours and drips down a cake."
+  }
+ ],
+ "sheet_beats": 10,
+ "sheet_title": "Chocolate : cream",
+ "sheet_text": "More chocolate *sets firmer*. More cream pours thinner.",
+ "outro_beats": 6,
+ "music": [
+  [
+   "Dmaj7",
+   12
+  ],
+  [
+   "Bm7",
+   8
+  ],
+  [
+   "Em7",
+   8
+  ],
+  [
+   "A7",
+   10
+  ],
+  [
+   "Dmaj7",
+   6
+  ]
+ ],
+ "sources": [
+  "https://handletheheat.com/how-to-make-chocolate-ganache/ (2:1 truffles, 1:1 frosting/thick glaze, 1:2 thin pourable)",
+  "https://bakerbettie.com/how-to-make-ganache/"
+ ]
+}

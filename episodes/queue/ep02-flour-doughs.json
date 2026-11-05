@@ -1,0 +1,129 @@
+{
+ "title": "Flour doughs",
+ "series": "Doughs",
+ "episode": 2,
+ "handle": "@ratiosthatmove",
+ "bpm": 86,
+ "base": "flour",
+ "hook": "Same flour. *Swap what you add*, get a new dough.",
+ "hook_beats": 5,
+ "cover_text": "Same flour, *one swap*, three different doughs",
+ "ingredients": [
+  "flour",
+  "water",
+  "egg",
+  "butter"
+ ],
+ "dishes": [
+  {
+   "name": "Bread",
+   "beats": 12,
+   "tag": "chewy & airy",
+   "illustration": "bread",
+   "tint": "FFE3C2",
+   "science": "gluten",
+   "science_label": "GLUTEN TRAPS GAS",
+   "grams": {
+    "flour": 100,
+    "water": 60
+   },
+   "ratio": [
+    [
+     "flour",
+     "5"
+    ],
+    [
+     "water",
+     "3"
+    ]
+   ],
+   "ratio_short": "5 : 3",
+   "text": "Just water. Kneading lines up *gluten* into stretchy strands that trap gas."
+  },
+  {
+   "name": "Pasta",
+   "beats": 8,
+   "tag": "silky & firm",
+   "illustration": "pasta",
+   "tint": "FFF0B3",
+   "science": "protein_net",
+   "science_label": "EGG PROTEINS SET",
+   "grams": {
+    "flour": 100,
+    "egg": 67
+   },
+   "ratio": [
+    [
+     "flour",
+     "3"
+    ],
+    [
+     "egg",
+     "2"
+    ]
+   ],
+   "ratio_short": "3 : 2",
+   "text": "Swap the water for *egg*. Its proteins set the dough firm, rich and silky."
+  },
+  {
+   "name": "Pie dough",
+   "beats": 8,
+   "tag": "tender & flaky",
+   "illustration": "pie",
+   "tint": "FFD9E2",
+   "science": "fat_coating",
+   "science_label": "FAT BLOCKS GLUTEN",
+   "grams": {
+    "flour": 100,
+    "butter": 67,
+    "water": 33
+   },
+   "ratio": [
+    [
+     "flour",
+     "3"
+    ],
+    [
+     "butter",
+     "2"
+    ],
+    [
+     "water",
+     "1"
+    ]
+   ],
+   "ratio_short": "3 : 2 : 1",
+   "text": "*Cold butter* coats the flour, so little gluten forms: a tender, flaky crust."
+  }
+ ],
+ "sheet_beats": 10,
+ "sheet_title": "Flour + one more thing",
+ "sheet_text": "Water makes it *chewy*, egg makes it silky, fat makes it tender.",
+ "outro_beats": 6,
+ "music": [
+  [
+   "Am7",
+   12
+  ],
+  [
+   "Dm7",
+   8
+  ],
+  [
+   "G7",
+   8
+  ],
+  [
+   "Cmaj7",
+   10
+  ],
+  [
+   "Am7",
+   6
+  ]
+ ],
+ "sources": [
+  "https://www.npr.org/transcripts/107019060 (Ruhlman: bread 5:3, pie dough 3:2:1)",
+  "https://ruhlman.com/pasta-agnolotti-and-the-power-of-ratios/ (pasta 3:2 flour:egg by weight)"
+ ]
+}

@@ -1,0 +1,143 @@
+{
+ "title": "Breakfast batters",
+ "series": "Breakfast batters",
+ "episode": 1,
+ "handle": "@ratiosthatmove",
+ "bpm": 84,
+ "hook": "Same *3 ingredients*. Three different breakfasts.",
+ "hook_beats": 5,
+ "cover_text": "Same *3 ingredients*, three different breakfasts",
+ "ingredients": [
+  "flour",
+  "milk",
+  "egg",
+  "butter"
+ ],
+ "dishes": [
+  {
+   "name": "Crêpe",
+   "beats": 12,
+   "tag": "thin & lacy",
+   "illustration": "crepe",
+   "tint": "FFD9E2",
+   "science": "protein_net",
+   "science_label": "EGG PROTEINS → NET",
+   "grams": {
+    "flour": 100,
+    "milk": 200,
+    "egg": 200
+   },
+   "ratio": [
+    [
+     "flour",
+     "1"
+    ],
+    [
+     "milk",
+     "2"
+    ],
+    [
+     "egg",
+     "2"
+    ]
+   ],
+   "ratio_short": "1 : 2 : 2",
+   "text": "Twice the milk, twice the egg. A runny batter that *spreads thin* before it sets."
+  },
+  {
+   "name": "Popover",
+   "beats": 8,
+   "tag": "tall & hollow",
+   "illustration": "popover",
+   "tint": "D3EAFF",
+   "science": "steam",
+   "science_label": "WATER → STEAM",
+   "grams": {
+    "flour": 100,
+    "milk": 200,
+    "egg": 100
+   },
+   "ratio": [
+    [
+     "flour",
+     "1"
+    ],
+    [
+     "milk",
+     "2"
+    ],
+    [
+     "egg",
+     "1"
+    ]
+   ],
+   "ratio_short": "1 : 2 : 1",
+   "text": "*Half the egg*, same milk. In a hot oven, steam puffs it up hollow."
+  },
+  {
+   "name": "Pancake",
+   "beats": 8,
+   "tag": "thick & fluffy",
+   "illustration": "pancake",
+   "tint": "FFEBAD",
+   "science": "co2",
+   "science_label": "BAKING POWDER → CO₂",
+   "grams": {
+    "flour": 100,
+    "milk": 100,
+    "egg": 50,
+    "butter": 25
+   },
+   "ratio": [
+    [
+     "flour",
+     "1"
+    ],
+    [
+     "milk",
+     "1"
+    ],
+    [
+     "egg",
+     "½"
+    ],
+    [
+     "butter",
+     "¼"
+    ]
+   ],
+   "ratio_short": "1 : 1 : ½ : ¼",
+   "text": "*Half the milk*, plus butter and baking powder: a thick batter that rises fluffy."
+  }
+ ],
+ "sheet_beats": 10,
+ "sheet_title": "Flour : milk : egg",
+ "sheet_text": "Change *one number* and you change the dish.",
+ "outro_beats": 6,
+ "music": [
+  [
+   "Fmaj7",
+   12
+  ],
+  [
+   "Em7",
+   8
+  ],
+  [
+   "Dm7",
+   8
+  ],
+  [
+   "Cmaj7",
+   10
+  ],
+  [
+   "Fmaj7",
+   6
+  ]
+ ],
+ "base": "flour",
+ "sources": [
+  "https://ruhlman.com (Ratio: pancake 2:2:1:½, popover 2:1:1, crêpe 1:2:2 by weight)"
+ ]
+}
