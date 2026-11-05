@@ -58,7 +58,7 @@ def caption(spec):
     return (f"{plain(spec['hook'])}\n\n"
             + "\n".join(lines) + "\n\n"
             f"All by weight. {plain(spec['sheet_text'])}\n\n"
-            f"Save it for your next cook. A new kitchen ratio every day: follow {spec.get('handle', '@ratiosthatmove')} 🥄\n\n"
+            f"Save it for your next cook. A new kitchen ratio every day: follow {spec.get('handle', '@foodsthatmove')} 🥄\n\n"
             f"#cooking #baking #foodscience #kitchenhacks #cookingtips #homecooking #ratios #{tag}")
 
 

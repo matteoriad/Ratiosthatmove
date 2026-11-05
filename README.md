@@ -1,4 +1,4 @@
-# ratios that move: daily reel pipeline
+# foods that move: daily reel pipeline
 
 Every day at 10:00 Berlin time, GitHub Actions picks the next episode in `episodes/queue/`,
 renders the Reel (illustrated dishes, molecule close-ups, gliding ingredient bars, synth
@@ -30,23 +30,23 @@ pipeline/check.py   validates new episodes and renders stills to look at
 ## One-time setup
 
 ### 1. Instagram account
-Create @ratiosthatmove, then in the app: Settings → Account type and tools →
+Create @foodsthatmove, then in the app: Settings → Account type and tools →
 **Switch to professional account** → Creator. The account must be public.
 
 ### 2. Meta app + token (Facebook-login setup)
 New Meta apps no longer show "API setup with Instagram login", so use the Facebook-login setup:
-1. **Facebook Page:** create a Page ("ratios that move") and link @ratiosthatmove:
+1. **Facebook Page:** create a Page ("foods that move") and link @foodsthatmove:
    Page → Settings → Linked accounts → Instagram → Connect.
 2. developers.facebook.com → your app (the chordsthatmove app works too) → Use cases →
    Instagram API → **API setup with Facebook login** → **Add required content permissions**.
 3. **Tools → Graph API Explorer** → Get User Access Token with `instagram_basic`,
    `instagram_content_publish`, `pages_show_list`, `pages_read_engagement`,
    `business_management`. When Facebook asks which Pages/accounts, include the new
-   ratios that move Page and Instagram account.
+   foods that move Page and Instagram account.
 4. ⓘ next to the token → **Open in Access Token Tool** → **Extend Access Token** → paste the
    long-lived token back into the Explorer.
 5. Run `GET me/accounts?fields=name,access_token,instagram_business_account`. For the
-   ratios that move Page:
+   foods that move Page:
    - `instagram_business_account.id` → `IG_USER_ID`
    - `access_token` (Page token, never expires) → `IG_ACCESS_TOKEN`
 

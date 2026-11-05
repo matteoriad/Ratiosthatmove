@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""ratios that move — bright edition.
+"""foods that move — bright edition.
 
 One episode = one family of recipes. Each dish gets a cartoon illustration, a
 "zoom lens" showing the molecules doing the work (proteins, steam, CO2), its
@@ -63,7 +63,7 @@ class Episode:
     def header(self, cv, t, in_hook):
         cr = cv.cr
         logo(cr, L - 6, 232 - 30, 44)
-        cv.text(L + 52, 242, "ratios that move", "disp", 32, INK)
+        cv.text(L + 52, 242, "foods that move", "disp", 32, INK)
         sp = self.spec
         hd = f"EP. {int(sp['episode']):02d}" if in_hook else sp["series"].upper()
         cv.text(R - tw(hd, "mono", 20, 0.12), 242, hd, "mono", 20, MUTED, 1, 0.12)
@@ -282,7 +282,7 @@ class Episode:
         if outro_a > 0:
             a = outro_a; dy = 30 * (1 - a)
             logo(cr, L - 14, 470 + dy, 230, a)
-            cv.text(L - 6, 830 + dy, "ratios", "disp", 150, INK, a)
+            cv.text(L - 6, 830 + dy, "foods", "disp", 150, INK, a)
             x = cv.text(L - 6, 980 + dy, "that ", "disp", 150, INK, a)
             cv.text(x, 980 + dy, "move", "disp", 150, ACCENT, a)
             rrect(cr, L, 1040 + dy, tw(sp["handle"], "mono_b", 28) + 48, 60, 30); fs(cr, INK, 3, a)

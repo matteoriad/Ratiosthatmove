@@ -1,4 +1,4 @@
-"""ratios that move: the drawing library. Illustrations, ingredient icons, molecule scenes.
+"""foods that move: the drawing library. Illustrations, ingredient icons, molecule scenes.
 Episodes refer to these by name (see LIBRARY.md). Add new ones here."""
 import math
 import numpy as np
@@ -880,13 +880,23 @@ def lens(cr, dish, age, cx, cy, r, src, a):
 
 
 def logo(cr, x, y, size, a=1.0):
-    """Mark: three stacked rounded bars (a ratio) in flour / milk / egg."""
+    """Mark: a bowl made of three shrinking bars (a ratio) with two rising steam lines that
+    step sideways like the chords-that-move voice lines. Drawn in a 120 x 120 box."""
+    def line(col, pts, w):
+        cr.set_source_rgba(*rgb(col)); cr.set_line_width(w)
+        cr.set_line_cap(cairo.LINE_CAP_ROUND); cr.set_line_join(cairo.LINE_JOIN_ROUND)
+        for p in pts:
+            if p[0] == "M": cr.move_to(*p[1:])
+            elif p[0] == "L": cr.line_to(*p[1:])
+            else: cr.curve_to(*p[1:])
+        cr.stroke()
     def body():
         s = size / 120
         cr.save(); cr.translate(x, y); cr.scale(s, s)
-        for col, yy, w in ((ING["flour"], 14, 100), (ING["milk"], 46, 74), (ING["egg"], 78, 48)):
-            rrect(cr, 10, yy, w, 26, 13); fs(cr, col, 6)
+        for sx in (47, 69):
+            line(INK, [("M", sx, 42), ("L", sx, 32), ("C", sx, 24, sx + 7, 26, sx + 7, 18), ("L", sx + 7, 4)], 9.3)
+        line(ING["milk"], [("M", 14, 60), ("L", 106, 60)], 15)
+        line(ING["egg"], [("M", 27, 82), ("L", 93, 82)], 15)
+        line(ACCENT, [("M", 42, 104), ("L", 78, 104)], 15)
         cr.restore()
     group(cr, a, body)
-
-

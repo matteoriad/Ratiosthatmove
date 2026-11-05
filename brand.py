@@ -1,4 +1,4 @@
-"""ratios that move: brand constants, type and drawing helpers (shared by renderer + library)."""
+"""foods that move: brand constants, type and drawing helpers (shared by renderer + library)."""
 import math, os
 import numpy as np
 import cairo

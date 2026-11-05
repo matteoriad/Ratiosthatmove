@@ -61,8 +61,8 @@ jobs:
           DRY_RUN: ${{ github.event_name == 'workflow_dispatch' && inputs.dry_run || false }}
           EPISODE: ${{ inputs.episode }}
         run: |
-          git config user.name "ratiosthatmove-bot"
-          git config user.email "ratiosthatmove-bot@users.noreply.github.com"
+          git config user.name "foodsthatmove-bot"
+          git config user.email "foodsthatmove-bot@users.noreply.github.com"
           git pull -q --rebase origin main
           python pipeline/post.py
 

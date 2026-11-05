@@ -29,7 +29,7 @@ workflow posts the lowest number not yet in `posted.json`.
 ## The file
 
 ```json
-{"title": "Flour doughs", "series": "Doughs", "episode": 2, "handle": "@ratiosthatmove",
+{"title": "Flour doughs", "series": "Doughs", "episode": 2, "handle": "@foodsthatmove",
  "bpm": 86, "base": "flour",
  "hook": "Same flour. *Swap what you add*, get a new dough.", "hook_beats": 5,
  "cover_text": "Same flour, *one swap*, three different doughs",
