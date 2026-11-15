@@ -1,0 +1,155 @@
+{
+ "title": "White sauce",
+ "series": "Sauces",
+ "episode": 4,
+ "handle": "@foodsthatmove",
+ "bpm": 82,
+ "base": "milk",
+ "hook": "Milk, butter, flour. *Change the dose*, change the sauce.",
+ "hook_beats": 5,
+ "cover_text": "Same white sauce, *three thicknesses*",
+ "ingredients": [
+  "milk",
+  "butter",
+  "flour"
+ ],
+ "dishes": [
+  {
+   "name": "Cream soup",
+   "beats": 12,
+   "tag": "thin & silky",
+   "illustration": "bowl",
+   "tint": "D9F5E5",
+   "look": {
+    "fill": "FFF8E7",
+    "garnish": "herbs"
+   },
+   "science": "starch_gel",
+   "science_label": "STARCH SWELLS",
+   "grams": {
+    "milk": 100,
+    "butter": 4,
+    "flour": 4
+   },
+   "ratio": [
+    [
+     "milk",
+     "100"
+    ],
+    [
+     "butter",
+     "4"
+    ],
+    [
+     "flour",
+     "4"
+    ]
+   ],
+   "ratio_short": "100 : 4 : 4",
+   "text": "Just 4 g each of butter and flour. Starch swells *just enough* for a silky soup."
+  },
+  {
+   "name": "Béchamel",
+   "beats": 8,
+   "tag": "coats a spoon",
+   "illustration": "bowl",
+   "tint": "FFEBAD",
+   "look": {
+    "fill": "FFF3DA",
+    "garnish": "pepper",
+    "band": "F2542D"
+   },
+   "science": "starch_gel",
+   "science_label": "MORE STARCH, MORE GEL",
+   "grams": {
+    "milk": 100,
+    "butter": 6,
+    "flour": 6
+   },
+   "ratio": [
+    [
+     "milk",
+     "100"
+    ],
+    [
+     "butter",
+     "6"
+    ],
+    [
+     "flour",
+     "6"
+    ]
+   ],
+   "ratio_short": "100 : 6 : 6",
+   "text": "*6 g each*: the classic sauce for lasagna, gratins and mac and cheese."
+  },
+  {
+   "name": "Soufflé base",
+   "beats": 8,
+   "tag": "thick & firm",
+   "illustration": "bowl",
+   "tint": "FFE3C2",
+   "look": {
+    "fill": "FBE6B4",
+    "garnish": "none",
+    "steam": false,
+    "band": "4FB867"
+   },
+   "science": "starch_gel",
+   "science_label": "GEL HOLDS ITS SHAPE",
+   "grams": {
+    "milk": 100,
+    "butter": 9,
+    "flour": 9
+   },
+   "ratio": [
+    [
+     "milk",
+     "100"
+    ],
+    [
+     "butter",
+     "9"
+    ],
+    [
+     "flour",
+     "9"
+    ]
+   ],
+   "ratio_short": "100 : 9 : 9",
+   "text": "*9 g each*: thick enough to bind croquettes and hold up a soufflé."
+  }
+ ],
+ "sheet_beats": 10,
+ "sheet_title": "Milk : roux",
+ "sheet_text": "More butter and flour, *a thicker sauce*.",
+ "outro_beats": 6,
+ "music": [
+  [
+   "Gmaj7",
+   12
+  ],
+  [
+   "Em7",
+   8
+  ],
+  [
+   "Am7",
+   8
+  ],
+  [
+   "D7",
+   10
+  ],
+  [
+   "Gmaj7",
+   6
+  ]
+ ],
+ "sources": [
+  "https://app.ckbk.com/section/prof36725c08s001ss002sss002ssss005/proportions-of-roux-to-liquid (Gisslen, Professional Cooking: per 4 L liquid, thin 190 g / medium 250 g / thick 375 g each butter and flour, roux equal parts by weight ≈ 4.6 / 6.1 / 9.1 per 100 g)",
+  "https://www.cooksinfo.com/white-sauce (thin / medium / thick = 1 / 2 / 3 Tbsp each butter and flour per cup milk ≈ 3.3 / 6.7 / 10 g flour per 100 g)",
+  "https://tasteoffrancemag.com/recipes/michel-rouxs-ultimate-bechamel-recipe (classic béchamel 60 g butter, 60 g flour, 1 L milk ≈ 6 : 6 : 100)",
+  "https://www.bbcgoodfoodme.com/recipes/white-sauce (thick: 50 g butter, 50 g flour, 500 ml milk ≈ 9.7 per 100 g)"
+ ]
+}

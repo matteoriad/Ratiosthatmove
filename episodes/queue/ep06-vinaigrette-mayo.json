@@ -1,0 +1,111 @@
+{
+ "title": "Vinaigrette vs mayo",
+ "series": "Emulsions",
+ "episode": 6,
+ "handle": "@foodsthatmove",
+ "bpm": 80,
+ "base": "oil",
+ "hook": "Same oil. *One egg yolk* turns dressing into mayo.",
+ "hook_beats": 5,
+ "cover_text": "Oil and vinegar, *add a yolk*, get mayo",
+ "ingredients": [
+  "oil",
+  "vinegar",
+  "yolk"
+ ],
+ "dishes": [
+  {
+   "name": "Vinaigrette",
+   "beats": 12,
+   "tag": "shake & pour",
+   "illustration": "jar",
+   "tint": "D9F5E5",
+   "look": {
+    "contents": "sauce",
+    "fill": "F2D16B",
+    "lid": "4FB867"
+   },
+   "science": "emulsion_loose",
+   "science_label": "DROPLETS DRIFT APART",
+   "grams": {
+    "oil": 100,
+    "vinegar": 33
+   },
+   "ratio": [
+    [
+     "oil",
+     "3"
+    ],
+    [
+     "vinegar",
+     "1"
+    ]
+   ],
+   "ratio_short": "3 : 1",
+   "text": "Three parts oil to one vinegar. Shaken droplets *drift apart* in minutes."
+  },
+  {
+   "name": "Mayonnaise",
+   "beats": 8,
+   "tag": "thick & creamy",
+   "illustration": "bowl",
+   "tint": "FFEBAD",
+   "look": {
+    "fill": "FFF4D0",
+    "garnish": "none",
+    "steam": false
+   },
+   "science": "emulsion",
+   "science_label": "YOLK HOLDS DROPLETS",
+   "grams": {
+    "oil": 100,
+    "vinegar": 5,
+    "yolk": 8
+   },
+   "ratio": [
+    [
+     "oil",
+     "20"
+    ],
+    [
+     "vinegar",
+     "1"
+    ],
+    [
+     "yolk",
+     "1½"
+    ]
+   ],
+   "ratio_short": "20 : 1 : 1½",
+   "text": "Far less liquid, plus a *yolk*: it packs the oil into a thick, stable cream."
+  }
+ ],
+ "sheet_beats": 10,
+ "sheet_title": "Oil : vinegar",
+ "sheet_text": "Lots of acid stays *loose*. A yolk packs the oil tight.",
+ "outro_beats": 6,
+ "music": [
+  [
+   "Bbmaj7",
+   12
+  ],
+  [
+   "Gm7",
+   8
+  ],
+  [
+   "Ebmaj7",
+   10
+  ],
+  [
+   "F7",
+   6
+  ]
+ ],
+ "sources": [
+  "https://app.ckbk.com/section/prof36725c21s001ss002/oil-and-vinegar-dressings (Gisslen: basic vinaigrette is 3 parts oil to 1 part vinegar)",
+  "https://www.jamesbeard.org/recipes/vinaigrette (3 to 4 parts oil to 1 part vinegar)",
+  "https://ruhlman.com/make-mayo/ (Ruhlman mayo: 1 yolk, ~10 ml water + lemon, 1 cup oil ≈ oil 100 : liquid 4–5 : yolk 8; Ratio: 20 parts oil : 1 part liquid plus yolk)",
+  "https://www.npr.org/107019086 (Ruhlman basic mayonnaise: 1 yolk per cup of oil plus a little lemon and water)"
+ ]
+}

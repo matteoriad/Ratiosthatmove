@@ -1,0 +1,114 @@
+{
+ "title": "Egg custards",
+ "series": "Custards",
+ "episode": 7,
+ "handle": "@foodsthatmove",
+ "bpm": 76,
+ "base": "milk",
+ "hook": "Milk and eggs. *Yolks or whole eggs* decide it.",
+ "hook_beats": 5,
+ "cover_text": "Milk and eggs, *swap the yolks*, two custards",
+ "ingredients": [
+  "milk",
+  "yolk",
+  "egg",
+  "sugar"
+ ],
+ "dishes": [
+  {
+   "name": "Crème anglaise",
+   "beats": 12,
+   "tag": "pourable",
+   "illustration": "bowl",
+   "tint": "FFEBAD",
+   "look": {
+    "fill": "FCE7A8",
+    "garnish": "swirl",
+    "steam": false,
+    "band": "E8345A"
+   },
+   "science": "protein_net",
+   "science_label": "YOLKS THICKEN",
+   "grams": {
+    "milk": 100,
+    "yolk": 25,
+    "sugar": 25
+   },
+   "ratio": [
+    [
+     "milk",
+     "4"
+    ],
+    [
+     "yolk",
+     "1"
+    ],
+    [
+     "sugar",
+     "1"
+    ]
+   ],
+   "ratio_short": "4 : 1 : 1",
+   "text": "Yolks only, stirred over low heat. They *thicken it* into a pourable sauce."
+  },
+  {
+   "name": "Flan",
+   "beats": 8,
+   "tag": "sets & slices",
+   "illustration": "flan",
+   "tint": "FFD9E2",
+   "look": {},
+   "science": "protein_net",
+   "science_label": "WHOLE EGGS SET FIRM",
+   "grams": {
+    "milk": 100,
+    "egg": 50,
+    "sugar": 25
+   },
+   "ratio": [
+    [
+     "milk",
+     "4"
+    ],
+    [
+     "egg",
+     "2"
+    ],
+    [
+     "sugar",
+     "1"
+    ]
+   ],
+   "ratio_short": "4 : 2 : 1",
+   "text": "*Whole eggs*, twice the weight, baked: the whites set it firm enough to unmold."
+  }
+ ],
+ "sheet_beats": 10,
+ "sheet_title": "Milk : egg",
+ "sheet_text": "Yolks *thicken*. Whole eggs set firm.",
+ "outro_beats": 6,
+ "music": [
+  [
+   "Amaj7",
+   12
+  ],
+  [
+   "F#m7",
+   8
+  ],
+  [
+   "Dmaj7",
+   10
+  ],
+  [
+   "E7",
+   6
+  ]
+ ],
+ "sources": [
+  "https://ruhlman.com/?p=24396 (Ruhlman: standard anglaise 4 parts milk/cream, 1 part yolk, 1 part sugar)",
+  "https://www.cuisinedaubery.com/pubaccess/pierrehermesvanillacustardcrem.pdf (Pierre Hermé crème anglaise: 500 g milk+cream, 120 g yolks, 100 g sugar ≈ 4:1)",
+  "https://www.npr.org/transcripts/107019060 (Ruhlman: custard is one part egg to two parts liquid)",
+  "https://rouxbe.com/recipes/3129-creme-caramel (crème caramel ≈ 515 g milk, 6 eggs ≈ 2:1, 100 g sugar)"
+ ]
+}

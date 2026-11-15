@@ -1,0 +1,102 @@
+{
+ "title": "Meringue",
+ "series": "Egg whites",
+ "episode": 5,
+ "handle": "@foodsthatmove",
+ "bpm": 78,
+ "base": "white",
+ "hook": "Egg whites and sugar. *More sugar*, a new meringue.",
+ "hook_beats": 5,
+ "cover_text": "Same egg whites, *more sugar*, a crisp meringue",
+ "ingredients": [
+  "white",
+  "sugar"
+ ],
+ "dishes": [
+  {
+   "name": "Soft meringue",
+   "beats": 12,
+   "tag": "soft & glossy",
+   "illustration": "bowl",
+   "tint": "FFEBAD",
+   "look": {
+    "fill": "FFF1D6",
+    "garnish": "swirl",
+    "steam": false,
+    "band": "F2C94C"
+   },
+   "science": "foam",
+   "science_label": "PROTEINS HOLD AIR",
+   "grams": {
+    "white": 100,
+    "sugar": 100
+   },
+   "ratio": [
+    [
+     "white",
+     "1"
+    ],
+    [
+     "sugar",
+     "1"
+    ]
+   ],
+   "ratio_short": "1 : 1",
+   "text": "*Equal weights*: a soft, glossy foam to swirl on a lemon pie."
+  },
+  {
+   "name": "Meringue kisses",
+   "beats": 8,
+   "tag": "crisp & dry",
+   "illustration": "meringue",
+   "tint": "E8E0FF",
+   "look": {},
+   "science": "sugar",
+   "science_label": "SUGAR STIFFENS FOAM",
+   "grams": {
+    "white": 100,
+    "sugar": 200
+   },
+   "ratio": [
+    [
+     "white",
+     "1"
+    ],
+    [
+     "sugar",
+     "2"
+    ]
+   ],
+   "ratio_short": "1 : 2",
+   "text": "*Up to twice the sugar*: a stiff foam that bakes dry and crisp."
+  }
+ ],
+ "sheet_beats": 10,
+ "sheet_title": "White : sugar",
+ "sheet_text": "Less sugar stays *soft*, more sugar dries crisp.",
+ "outro_beats": 6,
+ "music": [
+  [
+   "Emaj7",
+   12
+  ],
+  [
+   "C#m7",
+   8
+  ],
+  [
+   "Amaj7",
+   10
+  ],
+  [
+   "B7",
+   6
+  ]
+ ],
+ "sources": [
+  "https://app.ckbk.com/reference/food00011c02s001e007se006se001/sugar-in-meringues (McGee: sugar to white ranges from about 1:1 to 2:1 by weight)",
+  "https://en.wikibooks.org/wiki/Cookbook:Meringue (soft meringue equal parts by weight; hard up to 2 parts sugar to 1 white)",
+  "https://bakerbettie.com/how-to-make-easy-meringue/ (lowest sugar ratio typically 1:1 white:sugar by weight)",
+  "https://www.kingarthurbaking.com/recipes/meringues-recipe (crisp meringues ≈ 418 g sugar to 198–227 g whites, about 2:1)"
+ ]
+}

@@ -1,0 +1,100 @@
+{
+ "title": "Salt in water",
+ "series": "Salt",
+ "episode": 8,
+ "handle": "@foodsthatmove",
+ "bpm": 78,
+ "base": "water",
+ "hook": "Water and salt. *How much* decides the job.",
+ "hook_beats": 5,
+ "cover_text": "Same water and salt, *1 % or 5 %*",
+ "ingredients": [
+  "water",
+  "salt"
+ ],
+ "dishes": [
+  {
+   "name": "Pasta water",
+   "beats": 12,
+   "tag": "seasoned",
+   "illustration": "pasta",
+   "tint": "FFEBAD",
+   "look": {},
+   "science": "salt",
+   "science_label": "SALT SPLITS INTO IONS",
+   "grams": {
+    "water": 100,
+    "salt": 1
+   },
+   "ratio": [
+    [
+     "water",
+     "100"
+    ],
+    [
+     "salt",
+     "1"
+    ]
+   ],
+   "ratio_short": "100 : 1",
+   "text": "About *10 g per litre*: the pasta soaks it up and comes out seasoned."
+  },
+  {
+   "name": "Pickle brine",
+   "beats": 8,
+   "tag": "sour & crunchy",
+   "illustration": "jar",
+   "tint": "D9F5E5",
+   "look": {
+    "contents": "pickles"
+   },
+   "science": "salt",
+   "science_label": "IONS PULL OUT WATER",
+   "grams": {
+    "water": 100,
+    "salt": 5
+   },
+   "ratio": [
+    [
+     "water",
+     "20"
+    ],
+    [
+     "salt",
+     "1"
+    ]
+   ],
+   "ratio_short": "20 : 1",
+   "text": "*Five times more*: cucumbers ferment sour and crunchy, and spoilers stay out."
+  }
+ ],
+ "sheet_beats": 10,
+ "sheet_title": "Water : salt",
+ "sheet_text": "1 % *seasons*. 5 % brines and pickles.",
+ "outro_beats": 6,
+ "music": [
+  [
+   "C#m7",
+   12
+  ],
+  [
+   "Amaj7",
+   8
+  ],
+  [
+   "F#m7",
+   10
+  ],
+  [
+   "G#7",
+   6
+  ]
+ ],
+ "sources": [
+  "https://www.americastestkitchen.com/articles/5840-how-salty-should-your-pasta-water-be (ATK: 1 Tbsp table salt per 4 qt water ≈ 0.5%)",
+  "https://spokesman.com/stories/2023/may/10/how-to-salt-pasta-water-its-as-much-art-as-science (Serious Eats test: 0.5–2% salt by weight acceptable; 1% is the middle)",
+  "https://extension.illinois.edu/sites/default/files/fermentation_fill_your_pantry_final_2021.08.20_ls.pdf (Illinois Extension: 5% brine for cucumbers)",
+  "https://nwedible.com/how-much-salt-fermentation/ (5% brine, 50 g salt per litre, for cucumber pickles)",
+  "https://app.ckbk.com/reference/ruhl76438c02s001e001/using-brines-liquefied-salt (Ruhlman: 5% brine, 50 g salt per litre / 20:1)"
+ ]
+}

@@ -1,0 +1,104 @@
+{
+ "title": "Simple syrups",
+ "series": "Syrups",
+ "episode": 9,
+ "handle": "@foodsthatmove",
+ "bpm": 80,
+ "base": "water",
+ "hook": "Sugar and water. *Double the sugar*, a richer syrup.",
+ "hook_beats": 5,
+ "cover_text": "Sugar and water, *two syrups* for two jobs",
+ "ingredients": [
+  "water",
+  "sugar"
+ ],
+ "dishes": [
+  {
+   "name": "Simple syrup",
+   "beats": 12,
+   "tag": "thin & light",
+   "illustration": "glass",
+   "tint": "D3EAFF",
+   "look": {
+    "shape": "tumbler",
+    "garnish": "lemon",
+    "fill": "FFE9A0"
+   },
+   "science": "sugar",
+   "science_label": "SUCROSE DISSOLVES",
+   "grams": {
+    "water": 100,
+    "sugar": 100
+   },
+   "ratio": [
+    [
+     "water",
+     "1"
+    ],
+    [
+     "sugar",
+     "1"
+    ]
+   ],
+   "ratio_short": "1 : 1",
+   "text": "*Equal weights*, stirred until clear. Sweetens iced tea and lemonade."
+  },
+  {
+   "name": "Rich syrup",
+   "beats": 8,
+   "tag": "thick & rich",
+   "illustration": "glass",
+   "tint": "E8E0FF",
+   "look": {
+    "shape": "coupe",
+    "garnish": "none",
+    "fill": "F7D98B"
+   },
+   "science": "sugar",
+   "science_label": "MORE SUGAR, LESS WATER",
+   "grams": {
+    "water": 100,
+    "sugar": 200
+   },
+   "ratio": [
+    [
+     "sugar",
+     "2"
+    ],
+    [
+     "water",
+     "1"
+    ]
+   ],
+   "ratio_short": "2 : 1",
+   "text": "*Twice the sugar*: thicker and sweeter, so a cocktail needs less of it."
+  }
+ ],
+ "sheet_beats": 10,
+ "sheet_title": "Sugar : water",
+ "sheet_text": "1 : 1 for *everyday*, 2 : 1 for cocktails.",
+ "outro_beats": 6,
+ "music": [
+  [
+   "Dbmaj7",
+   12
+  ],
+  [
+   "Bbm7",
+   8
+  ],
+  [
+   "Gbmaj7",
+   10
+  ],
+  [
+   "Ab7",
+   6
+  ]
+ ],
+ "sources": [
+  "https://jeffreymorgenthaler.com/2006/simple-syrup/ (measure sugar and water by weight; uses 2:1 rich simple syrup)",
+  "https://www.diffordsguide.com/encyclopedia/3593/cocktails/2-to-1-rich-sugar-syrup-versus-1-to-1-simple-syrup (1:1 simple vs 2:1 rich syrup; rich is sweeter, less dilution)",
+  "https://imbibemagazine.com/recipe/rich-simple-syrup-recipe (rich simple syrup 2:1 sugar to water)"
+ ]
+}
