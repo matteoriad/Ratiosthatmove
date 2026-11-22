@@ -1,0 +1,54 @@
+{
+ "title": "Swap the flour",
+ "series": "Butter bakes",
+ "episode": 10,
+ "handle": "@foodsthatmove",
+ "bpm": 76,
+ "base": "butter",
+ "hook": "Four ingredients, equal weights. *Swap one*.",
+ "hook_beats": 5,
+ "cover_text": "Equal weights, *swap the flour*, cake becomes almond cream",
+ "ingredients": ["butter", "sugar", "egg", "flour", "almond flour"],
+ "dishes": [
+  {
+   "name": "Pound cake",
+   "beats": 12,
+   "tag": "rich & buttery",
+   "illustration": "cake",
+   "tint": "FFEBAD",
+   "look": {"sponge": "F6D58E", "filling": "F6D58E", "glaze": "FFF6E4", "drip": false},
+   "science": "gluten",
+   "science_label": "FLOUR HOLDS THE AIR",
+   "grams": {"butter": 100, "sugar": 100, "egg": 100, "flour": 100},
+   "ratio": [["butter", "1"], ["sugar", "1"], ["egg", "1"], ["flour", "1"]],
+   "ratio_short": "1 : 1 : 1 : 1",
+   "text": "*A pound of each*. Creamed butter holds air, flour and egg set around it."
+  },
+  {
+   "name": "Almond cream",
+   "beats": 8,
+   "tag": "moist & nutty",
+   "illustration": "pie",
+   "tint": "F3D9C9",
+   "look": {"filling": "E9C27E", "lattice": false},
+   "science": "protein_net",
+   "science_label": "ONLY EGGS SET IT",
+   "grams": {"butter": 100, "sugar": 100, "egg": 100, "almond flour": 100},
+   "ratio": [["butter", "1"], ["sugar", "1"], ["egg", "1"], ["almond flour", "1"]],
+   "ratio_short": "1 : 1 : 1 : 1",
+   "text": "*Ground almonds* instead of flour. No gluten, so it bakes soft in a tart."
+  }
+ ],
+ "sheet_beats": 10,
+ "sheet_title": "All equal",
+ "sheet_text": "Wheat flour gives *a cake*. Almonds give a tart filling.",
+ "outro_beats": 6,
+ "music": [["Ebmaj7", 12], ["Cm7", 8], ["Abmaj7", 10], ["Bb7", 6]],
+ "sources": [
+  "https://bakerbettie.com/mastering-perfect-pound-cake/ (original pound cake: 1 lb each of sugar, butter, eggs and flour; leavened only by air creamed into the batter)",
+  "https://uglyducklingbakery.com/baking-ratios (pound cake: equal amounts of butter, sugar, eggs and flour)",
+  "https://www.cooksinfo.com/creme-damandes (crème d'amande: equal parts sugar, butter, ground almonds, eggs; 100 g each)",
+  "https://www.bakinglikeachef.com/almond-cream-filling-creme-damande/ (almond cream: equal weights butter, sugar, egg, ground almonds; no flour)",
+  "https://www.spatuladesserts.com/frangipane-almond-cream (classic almond cream: equal amounts of 4 ingredients, 100 g each)"
+ ]
+}
